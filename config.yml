@@ -1,0 +1,18 @@
+# Configuration for EtherConnect
+
+# The contract information + APIS #
+ContractAddress: ""
+EtherScanEndpoint: "https://api.etherscan.io/api?"
+EtherScanAPIKey: ""
+InfuraEndpoint: "https://mainnet.infura.io/v3/"
+InfuraAPIKey: ""
+BlockUpdateTopic: "0x19ec1a232a9e81e21918ecaa90c085e565acf6f4f2a194f7f935bab42bed97cb"
+
+# Auto update the world to the latest block. #
+# EnableAutoUpdateOnLaunch -> Does the server enable the update timer when launched?
+# UpdateFrequency -> How many ticks until the next update? (20ticks in a second)
+EnableAutoUpdateOnLaunch: true
+UpdateFrequency: 1200
+
+# DO NOT CHANGE ANYTHING BELOW #
+LastBlock: 379224

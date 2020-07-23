@@ -1,0 +1,11 @@
+name: EtherConnect
+main: ca.pocable.etherconnect.EtherConnect
+version: 1.0.0d
+api-version: 1.13
+commands:
+   ec:
+      description: Displays all commands for Ether Connect.
+      usage: /<command>
+permissions:
+    etherconnect.*:
+        description: Gives access to all EtherConnect commands/permissions.
