@@ -34,3 +34,11 @@ If you are interesting in testing the contract, I recommend you deploy to the ko
 3. Get the contract address for the contract you deployed.
 
 Please read the sol file for contract functions. I find it easier to interact with the contract in remix.
+
+## Hidden Commands
+There are some hidden, OP only commands in the plugin. These are helpful for debugging and testing the connection.
+* /ec update block - Update block at your current location.
+* /ec updateblock x y z - Update the block at a given X,Y,Z.
+* /ec updateall - Run through all block events and replace all blocks. Will be slower the more blocks are in the contract!
+* /ec update - Force an update to start. Will check all updates from the lastblock in config until the current block.
+* /ec autoupdate (stop/start) - Stop/Start the autoupdate timer.
