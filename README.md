@@ -1,5 +1,5 @@
 # Ether Connect
-An Ethereum smart contract and Bukkit plugin designed to connect a Minecraft world to the Ethereum network. This is a proof of concept built in 2019 using bukkit 1.14. 
+An Ethereum smart contract and Bukkit plugin designed to connect a Minecraft world to the Ethereum network. This is a proof of concept built in 2019 using bukkit 1.14, but still works with 1.16. 
 
 The wallet file included should **never** be used. It's required for Etherscan and its just an empty wallet. Please do not deposit money into this wallet.
 
@@ -13,12 +13,13 @@ Technically the entire world isn't stored on the ethereum network as that would 
 
 ## Plugin Setup
 This plugin disables building in the world unless you are an OP. This is because the plugin will take priority and overwrite any blocks placed in the world. It will also force all players into spectator mode on login. If anyone is interested in changing any of these settings, you can either build the plugin yourself or open an issue.
-1. [Get Etherscan API key](https://etherscan.io/myapikey)
-2. [Get Infura API key](https://infura.io/dashboard/ethereum)
-3. Run the Minecraft server with the plugin to generate the config.yml
-4. Setup the Ethereum Smart Contract to obtain the contract address.
-5. Update config.yml with the API keys and the Smart Contract address. If you want to use the Kovan test network, update the EtherScanEndpoint to https://api-kovan.etherscan.io/api and InfuraEndpoint to https://kovan.infura.io/v3/.
-6. Start the server.
+1. [Get Etherscan API key](https://etherscan.io/myapikey).
+2. [Get Infura API key](https://infura.io/dashboard/ethereum).
+3. Place the wallet file in your server root (by the server.jar) and the plugin in your plugin folder.
+4. Run the Minecraft server with the plugin to generate the config.yml.
+5. Setup the Ethereum Smart Contract to obtain the contract address.
+6. Update config.yml with the API keys and the Smart Contract address. If you want to use the Kovan test network, update the EtherScanEndpoint to https://api-kovan.etherscan.io/api and InfuraEndpoint to https://kovan.infura.io/v3/.
+7. Start the server.
 
 
 ## Ethereum Smart Contract Setup
