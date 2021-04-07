@@ -1,6 +1,6 @@
 name: EtherConnect
 main: ca.pocable.etherconnect.EtherConnect
-version: 1.0.0d
+version: 1.0.1
 api-version: 1.13
 commands:
    ec:
